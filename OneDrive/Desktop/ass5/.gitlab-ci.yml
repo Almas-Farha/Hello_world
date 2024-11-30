@@ -1,0 +1,13 @@
+stages: - build - test - release - deploy 
+build: 
+stage: build 
+script: - echo "Hello, World! - Build Stage" 
+test: 
+stage: test 
+script: - echo "Hello, World! - Test Stage" 
+release: 
+stage: release 
+script: - echo "Hello, World! - Release Stage" 
+deploy: 
+stage: deploy 
+script: - echo "Hello, World! - Deploy Stage"
